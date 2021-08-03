@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c5441fe-d72c-4656-8954-bbc6f5f188a9" name="Default Changelist" comment="l4 commit">
+      <change afterPath="$PROJECT_DIR$/lesson_5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1w2o1AgfP6tJCVViMFHgGn209zr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lesson_5/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c5441fe-d72c-4656-8954-bbc6f5f188a9" name="Default Changelist" comment="l2 commit" />
+      <created>1627665832613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627665832613</updated>
+      <workItem from="1627665835713" duration="5211000" />
+      <workItem from="1627976534305" duration="36000" />
+      <workItem from="1627976604382" duration="874000" />
+    </task>
+    <task id="LOCAL-00001" summary="l3 commit">
+      <created>1627667707001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627667707001</updated>
+    </task>
+    <task id="LOCAL-00002" summary="l4 commit">
+      <created>1627670944637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627670944637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="l3 commit" />
+    <MESSAGE value="l4 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="l4 commit" />
+  </component>
+</project>
