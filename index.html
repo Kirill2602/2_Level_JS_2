@@ -1,13 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div id="app">
+    <header>
+        <div class="logo">Интернет-магазин</div>
+        <div class="cart">
+            <form action="#" class="search-form">
+                <input v-model="searchLine" type="text" placeholder="Filter by name" class="search-field">
+            </form>
+            <button @click="visible=!visible" :class="{noEmptyBasket:noEmpty, 'btn-cart':!noEmpty}" type="button">
+                Корзина
+            </button>
+            <div v-show="visible" class="basket">
+                <h2 v-if="productsInBasket.length===0">Ваша корзина пуста</h2>
+                <div v-else>
+                    <div class="infoInBasket" v-for="(product,index) of productsInBasket" :key="product.id_product">
+                        <img :src="imgCatalog" alt="pic" class="imgInBasket">
+                        <div>
+                            <p>Название: {{product.product_name}}</p>
+                            <p>Цена: {{product.price}}₽</p>
+                            <div class="basketBtn">
+                                <button @click="incr(index)">+</button>
+                                <p>{{product.quantity}}</p>
+                                <button v-if="productsInBasket.length !== 0" @click="decr(index)">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Сумма корзины: {{basketSumm}} ₽</h3>
+                </div>
+            </div>
+            <button class="btn-cart" @click="clearBasket">Clear Basket</button>
+        </div>
+    </header>
+    <main>
+        <div class="emptyCatalog" v-if="products.length === 0">Нет данных</div>
+        <div v-else class="products">
+            <div class="product-item" v-for="product of filterProducts" :key="product.id_product">
+                <img :src="imgCatalog" alt="Some img">
+                <div class="desc">
+                    <h3>{{product.product_name}}</h3>
+                    <p>{{product.price}}₽</p>
+                    <button class="buy-btn" @click="addProduct(product)">Купить</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
