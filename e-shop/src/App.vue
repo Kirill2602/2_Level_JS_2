@@ -11,7 +11,11 @@ export default {
   name: 'App',
   components: {
     vMainWrapper,
-  }
+  },
+  data() {
+    return {
+    }
+  },
 }
 </script>
 
