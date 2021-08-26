@@ -56,7 +56,6 @@
 import vCatalogItem from './v-catalog-item'
 import {mapActions, mapGetters} from 'vuex'
 import vSelect from './v-select'
-
 export default {
   name: "v-catalog",
   components: {vCatalogItem, vSelect},
@@ -71,7 +70,7 @@ export default {
       sortedProducts: [],
       minPrice: 0,
       maxPrice: 3000,
-      searchLine:'',
+      searchLine: '',
     }
   },
   methods: {
@@ -96,7 +95,7 @@ export default {
       this.sortedProducts = this.sortedProducts.filter(function (item) {
         return item.price >= vm.minPrice && item.price <= vm.maxPrice;
       })
-      if (category){
+      if (category) {
         this.sortedProducts = this.sortedProducts.filter(function (e) {
           vm.selected = category.name
           return e.category === category.name
@@ -121,14 +120,12 @@ export default {
     filteredProducts() {
       if (this.sortedProducts.length) {
         const regexp = new RegExp(this.searchLine, 'i');
-        // return this.sortedProducts;
         return this.sortedProducts.filter((product) => product.name.match(regexp));
       } else {
         return this.PRODUCTS;
       }
     },
   },
-
 }
 </script>
 
@@ -151,7 +148,8 @@ export default {
   top: 10px;
   cursor: pointer;
 }
-.v-catalog_link_to_cart:hover{
+
+.v-catalog_link_to_cart:hover {
   background: #8fd50d;
   color: white;
   transition: 0.3ms;

@@ -68,7 +68,7 @@ export default {
     decrement(index){
       this.DECREMENT_CART_ITEM(index)
     },
-  }
+  },
 }
 </script>
 
@@ -78,7 +78,6 @@ export default {
   min-width: 100%;
   align-items: center;
 }
-
 .v-cart_total {
   position: fixed;
   bottom: 0;
@@ -91,7 +90,6 @@ export default {
   color: white;
   font-size: 20px;
 }
-
 .total_name {
   margin-right: 16px;
 }
